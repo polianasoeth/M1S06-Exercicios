@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login 😎</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+    <form class="formulario">
+
+        <h1><strong>Faça seu login</strong></h1>
+
+        <div class="input-area">
+            <input id="campo-email" type="text" placeholder="Email" />
+            <span id="error-email" class="texto-erro" hidden></span>
+        </div>
+
+        <div class="input-area">
+            <input id="campo-senha" type="password" placeholder="Senha" />
+            <span id="error-senha" class="texto-erro" hidden></span>
+        </div>
+
+        <button id="login-button" type="button" onclick="fazerLogin()">Login</button>
+    </form>
+
+    <script src="login.js" type="module"></script>
+
+</body>
+
+</html>
