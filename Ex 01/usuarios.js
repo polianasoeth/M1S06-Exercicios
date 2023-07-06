@@ -1,33 +1,8 @@
-export const usuarios = [
-    {
-        email: "poliana@gmail.com",
-        nome: "Poliana Soeth",
-        password: 'ferias123'
-    },
-    {
-        email: "ian@gmail.com",
-        nome: "Ian Wikipédia",
-        password: '321wiki'
-    },
-    {
-        email: "sophia@gmail.com",
-        nome: "Sophia Biz",
-        password: 'lets123'
-    },
-    {
-        email: "devdisney@gmail.com",
-        nome: "Dev da Disney",
-        password: 'retrabalho123'
-    },
-    {
-        email: "pamela@gmail.com",
-        nome: "Pamela Soeth",
-        password: 'amoferias123'
-    },
-    {
-        email: "andrea@gmail.com",
-        nome: "Andrea Soeth",
-        password: '321ohferias'
-    },
-    
-]
+export const usuarios = new Set([
+    'poliana@gmail.com:ferias123',
+    'ian@gmail.com:321wiki',
+    'sophia@gmail.com:lets123',
+    'devdisney@gmail.com:retrabalho123',
+    'pamela@gmail.com:amoferias123',
+    'andrea@gmail.com:321ohferias'
+])
