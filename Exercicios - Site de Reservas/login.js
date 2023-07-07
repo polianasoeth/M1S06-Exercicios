@@ -2,6 +2,7 @@ import { usuarios } from "./usuarios.js"
 
 document.getElementById("login-button").addEventListener("click", fazerLogin)
 
+// Função para fazer login
 function fazerLogin() {
 
     const email = document.getElementById('campo-email').value
@@ -13,7 +14,7 @@ function fazerLogin() {
     document.getElementById('campo-senha').classList.remove("input-error")
     document.getElementById('error-senha').hidden = true
 
-
+    // Verificando se os dados são válidos
     if (email === "") {
         document.getElementById('campo-email').classList.add('input-error')
         document.getElementById('error-email').hidden = false
